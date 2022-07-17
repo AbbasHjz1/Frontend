@@ -1,0 +1,22 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Goalsetter app for youtube ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "server": "nodemon api/server.js"
+  },
+  "author": "Abbas Hejazi",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
